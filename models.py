@@ -67,7 +67,7 @@ def show_models():
     
     with st.expander("View Confusion Matrix", expanded=True):
         if model_choice == "CNN 1.1":
-            st.image(r"Images/confusion_matrix_cnn.png", 
+            st.image(r"Images/confusion_matrix_CNN.png", 
                       caption="CNN 1.1 Confusion Matrix", use_column_width=True)
         else:
             st.image(r"Images/confusion_matrix_EfficientNetB1.png", 
