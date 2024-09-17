@@ -24,10 +24,10 @@ def show_models():
     
     with st.expander("View Architecture", expanded=False):
         if model_choice == "CNN 1.1":
-            st.image(r"Images\CNN_architecture.png", 
+            st.image(r"Images/CNN_architecture.png", 
                       caption="CNN 1.1 Architecture", use_column_width=True)
         else:
-            st.image(r"Images\EfficientNetB1_architecture.png", 
+            st.image(r"Images/EfficientNetB1_architecture.png", 
                       caption="TL Model (EfficientNetB1) Architecture", use_column_width=True)
     
     st.markdown("## Loss and Training History")
@@ -37,10 +37,10 @@ def show_models():
     
     with st.expander("View Loss and Training History", expanded=True):
         if model_choice == "CNN 1.1":
-            st.image(r"Images\cnn_training.png", 
+            st.image(r"Images/cnn_training.png", 
                       caption="CNN 1.1 Loss and Training History", use_column_width=True)
         else:
-            st.image(r"Images\EfficientNet_training.png", 
+            st.image(r"Images/EfficientNet_training.png", 
                       caption="TL Model (EfficientNetB1) Loss and Training History", use_column_width=True)
     
     st.markdown("## Evaluation")
@@ -57,7 +57,7 @@ def show_models():
 
     st.markdown("### Model Performance Metrics")
 
-    st.image(r"Images\overall_results.png", 
+    st.image(r"Images/overall_results.png", 
                       caption="Overall results", use_column_width=True)
     
     st.markdown("### Confusion Matrix")
@@ -67,10 +67,10 @@ def show_models():
     
     with st.expander("View Confusion Matrix", expanded=True):
         if model_choice == "CNN 1.1":
-            st.image(r"Images\confusion_matrix_cnn.png", 
+            st.image(r"Images/confusion_matrix_cnn.png", 
                       caption="CNN 1.1 Confusion Matrix", use_column_width=True)
         else:
-            st.image(r"Images\confusion_matrix_EfficientNetB1.png", 
+            st.image(r"Images/confusion_matrix_EfficientNetB1.png", 
                       caption="TL Model (EfficientNetB1) Confusion Matrix", use_column_width=True)
 
 

@@ -18,10 +18,10 @@ def show_interpretability():
     
     with st.expander("View Grad_CAM Visualization", expanded=True):
         if model_choice == "CNN 1.1":
-            st.image(r"Images\GradCam-CNN.png", 
+            st.image(r"Images/GradCam-CNN.png", 
                       caption="CNN 1.1 Grad-CAM", use_column_width=True)
         else:
-            st.image(r"Images\GradCam-EfficientNet.png", 
+            st.image(r"Images/GradCam-EfficientNet.png", 
                       caption="TL Model (EfficientNetB1) Grad-CAM", use_column_width=True)
             
     st.markdown("## Masking")
@@ -32,6 +32,6 @@ def show_interpretability():
         the masked region as important. This finding suggests that in our project, masking did not enhance the model's ability to focus on the lung area.
     """)
 
-    st.image(r"Images\Masking.png", 
+    st.image(r"Images/Masking.png", 
                       caption="Grad-CAM images for masked (left) and unmasked (right) versions of ResNet50-SVM, EfficientNetB1 and CNN 1.1 models", 
                       use_column_width=True)

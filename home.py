@@ -1,5 +1,5 @@
 # Philipp:
-# cd "D:\Google Drive\Data Science\Team Project X-Rays\Streamlit"
+# cd "D:/Google Drive\Data Science\Team Project X-Rays\Streamlit"
 
 # Execute Streamlit in Terminal
 # streamlit run master.py

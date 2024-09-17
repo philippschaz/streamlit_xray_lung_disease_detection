@@ -114,10 +114,10 @@ def show_preprocessing():
         return weighted_image
     
     image_paths = [
-        r"Images\\COVID-31.png",
-        r"Images\\Normal-21.png",
-        r"Images\\Lung_Opacity-3.png",
-        r"Images\\Viral_Pneumonia-9.png" ]
+        r"Images//COVID-31.png",
+        r"Images//Normal-21.png",
+        r"Images//Lung_Opacity-3.png",
+        r"Images//Viral_Pneumonia-9.png" ]
 
     if st.button("Apply Random Data Augmentation"):
         random_image_path = random.choice(image_paths)
@@ -137,7 +137,7 @@ def show_preprocessing():
 
     # st.markdown("## Masking")
 
-    # st.image(r"Images\Masking.png", 
+    # st.image(r"Images/Masking.png", 
     #                   caption="Grad-CAM images for masked (left) and unmasked (right) versions of ResNet50-SVM, EfficientNetB1 and CNN 1.1 models", 
     #                   use_column_width=True)
 
