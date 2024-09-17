@@ -37,7 +37,7 @@ def show_models():
     
     with st.expander("View Loss and Training History", expanded=True):
         if model_choice == "CNN 1.1":
-            st.image(r"Images/cnn_training.png", 
+            st.image(r"Images/CNN_training.png", 
                       caption="CNN 1.1 Loss and Training History", use_column_width=True)
         else:
             st.image(r"Images/EfficientNet_training.png", 
