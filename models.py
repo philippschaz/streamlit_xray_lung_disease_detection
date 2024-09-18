@@ -10,11 +10,11 @@ def show_models():
     st.title("Deep Learning Models")
 
     st.write("""
-        The modelling section provides an overview of the two deep learning approaches developed 
-        for detecting Covid-19 and viral pneumonia from chest X-ray images. It highlights the 
-        architecture of both the custom CNN model and the transfer learning model based on EfficientNetB1. 
+        We present two deep learning models developed 
+        for detecting Covid-19 and viral pneumonia from chest X-ray images. Below, the
+        architecture of a custom CNN model and a Transfer Learning model based on EfficientNetB1 are presented. 
         Additionally, the training process is discussed, showcasing the loss and accuracy functions used 
-        to evaluate model performance during training.
+        with an evaluation of model performance.
     """)
 
     st.markdown("## Architecture")
